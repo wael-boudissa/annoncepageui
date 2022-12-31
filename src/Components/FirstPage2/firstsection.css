@@ -2,7 +2,9 @@
     --primary-color : #000000;
     --secondary-color : #424baa ; 
   }
-  
+  .body {
+    background-color: #F7FCFA;
+  }
 .First_section{
     display: flex;
     flex-direction: row;
@@ -16,8 +18,8 @@
     display: flex;
     padding: 0;
     flex-direction: row;
-    width : 980px ; 
-    height : 500px ; 
+    width : 900px ; 
+    /* height : 500px ;  */
     z-index: 1;
     align-self: flex-end;
 /* background-position: center;
