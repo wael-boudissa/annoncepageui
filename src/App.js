@@ -1,24 +1,24 @@
 // import logo from './logo.svg';
 import "./index.css";
-import Header from "./Components/FirstPage/Header";
+//import Header from "./Components/FirstPage/Header";
 //import FirstSection from "./Components/FirstPage/FirstSection";
 //import SecondSection from "./Components/FirstPage/SecondSection";
-import AboutusSection from "./Components/FirstPage/AboutusSection";
-import LastSection from "./Components/FirstPage/LastSection";
+// import AboutusSection from "./Components/FirstPage/AboutusSection";
+// import LastSection from "./Components/FirstPage/LastSection";
 import { BrowserRouter as Router, Routes, Switch } from "react-router-dom";
 
 //Second Section
 
-import SecondHeader from "./Components/SecondSection/SecondHeader";
-import FirstSection2 from "./Components/SecondSection/FirstSection2";
-import SecondSection2 from "./Components/SecondSection/SeondSection2";
-import FindMoreSection from "./Components/SecondSection/FindMoreSection";
+import SecondHeader from "./Components/SecondPage/SecondHeader";
+import FirstSection2 from "./Components/SecondPage/FirstSection2";
+import SecondSection2 from "./Components/SecondPage/SeondSection2";
+import FindMoreSection from "./Components/SecondPage/FindMoreSection";
 
 // first section new version
-import FirstSection from "./Components/FirstPage2/FirstSection";
-import SecondSection from "./Components/FirstPage2/SecondSection";
-import ThirdSection from "./Components/FirstPage2/ThirdSection";
-import ForthSection from "./Components/FirstPage2/ForthSection";
+import FirstSection from "./Components/FirstPage/FirstSection";
+import SecondSection from "./Components/FirstPage/SecondSection";
+import ThirdSection from "./Components/FirstPage/ThirdSection";
+import ForthSection from "./Components/FirstPage/ForthSection";
 function App() {
   return (
     <div>
@@ -32,15 +32,18 @@ function App() {
         // Second Section
       }
 
-      {/* <SecondHeader />
+      <SecondHeader />
       <FirstSection2 />
       <SecondSection2 />
-      <FindMoreSection /> */}
+      <FindMoreSection />
 
-      <FirstSection />
+
+
+
+        {/* <FirstSection />
       <SecondSection />
       <ThirdSection />
-      <ForthSection />
+      <ForthSection />   */}
     </div>
   );
 }

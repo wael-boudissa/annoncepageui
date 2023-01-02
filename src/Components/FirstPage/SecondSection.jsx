@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../../Images/setting.png'
-import './SecondSection.css'
+import '../CSS/SecondSection1.css'
 import './test'
 const SecondSection = () => {
   return (

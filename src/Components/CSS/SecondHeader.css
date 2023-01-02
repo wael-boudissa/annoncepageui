@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: 40px;
     align-items: center;   
 }
 .Information {
@@ -16,15 +16,24 @@
     cursor: pointer;
     border: 0 black;
     border-radius: 30%;
-    padding: 10px;
-    background-color: rgb(212, 210, 210);
+    padding: 20px;
+    background-color:transparent;
+    transition: 0.3s ease;
 }
+.Header i:hover {
+    background-color: black;
+    color: white;
+    }
 .Information i {
     border: 0 black;
     border-radius: 30%;
-    padding: 10px;
-    background-color: rgb(212, 210, 210);
-    margin-right:30px ;
+    padding: 20px;
+    background-color:transparent;
+    margin-right:50px ;
     font-size: 1.5em;
     cursor: pointer;
+}
+.Information i:hover {
+    background-color: black;
+    color: white;
 }

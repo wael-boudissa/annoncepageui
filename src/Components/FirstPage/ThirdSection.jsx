@@ -1,5 +1,5 @@
 import React from 'react'
-import './ThirdSection.css'
+import '../CSS/ThirdSection.css'
 import img from '../../Images/undraw_stepping_up_g6oo (1).png'
 import './test'
 const ThirdSection = () => {

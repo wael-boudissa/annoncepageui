@@ -4,10 +4,10 @@ import img2 from '../../Images/AnnonceVendre.jpg'
 import img3 from '../../Images/AnnonceVendre.jpg'
 import img4 from '../../Images/AnnonceVendre.jpg'
 import './test'
-import './ForthSection.css'
+import '../CSS/ForthSection.css'
 const ForthSection = () => {
   return (
-    <section>
+    <section className="Forthsection">
       <script src="test.js"></script>
       <h1>About Us</h1>
       <p>

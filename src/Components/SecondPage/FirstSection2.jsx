@@ -1,7 +1,7 @@
-import React from "react";
-import annonceimg from "../../Images/AnnonceVendre.jpg";
+import React from 'react'
+import annonceimg from '../../Images/AnnonceVendre.jpg'
 
-import "../CSS/FirstSection2.css";
+import '../CSS/FirstSection2.css'
 
 const FirstSection2 = () => {
   return (
@@ -16,30 +16,34 @@ const FirstSection2 = () => {
             </div>
           </div>
           <div className="ImagesAnnonce">
-          <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-left"></i>
             <img src={annonceimg} />
             <i class="fa-solid fa-arrow-right"></i>
-              
-            
           </div>
+          <p>Catégorie , Type</p>
         </div>
         <div className="ContactUser">
           <h3>Name of the user </h3>
           <div className="InputTextUser">
-          
-      
-          <textarea placeholder="Enter your message" rows="30" cols="70" required maxlength="500"></textarea>
-          
-            <button className="button">Send </button>
+            <textarea
+              placeholder="Enter your message"
+              rows="30"
+              cols="70"
+              required
+              maxlength="500"
+            ></textarea>
           </div>
           <div className="ButtonUser">
-            <button className="button">Favoriser</button>
-            <button className="button">Report</button>
+            <div className="report">
+              <p>Report</p>
+              <i class="fa-light fa-exclamation"></i>
+            </div>
+            <button className="button">send</button>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default FirstSection2;
+export default FirstSection2
