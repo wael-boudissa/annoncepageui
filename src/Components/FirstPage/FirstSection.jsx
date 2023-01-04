@@ -2,17 +2,27 @@
 import React from 'react'
 import img from '../../Images/backgroundimg.jpg'
 import '../CSS/firstsection.css'
-
+import { Link } from 'react-router-dom'
 const FirstSection = () => {
   return (
     <section>
       <header>
         <img src={img} />
         <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Contact Us</li>
-          <button>Join Us</button>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+
+          <li>
+            <a href="#aboutus">About us</a>
+          </li>
+          <li>
+            <a href="#contactus">Contact Us</a>
+          </li>
+          <Link to="/signup">
+            {' '}
+            <button>Join Us</button>
+          </Link>
         </ul>
       </header>
       <div className="First_section">

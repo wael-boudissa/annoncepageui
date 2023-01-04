@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 40px;
+    width: 100%;
     align-items: center;   
 }
 .Information {

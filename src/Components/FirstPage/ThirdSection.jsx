@@ -4,7 +4,7 @@ import img from '../../Images/undraw_stepping_up_g6oo (1).png'
 import './test'
 const ThirdSection = () => {
   return (
-    <section>
+    <section id="name">
       <div className="first_skills">
         <img src={img} className="imgskills" />
         <h1 className="textskills">

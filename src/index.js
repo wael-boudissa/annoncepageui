@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter ,Link ,Route , Routes }from "react-router-dom"
+import {BrowserRouter ,Link ,Route ,Router, Routes }from "react-router-dom"
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
+import HouseContextProvider from './Components/AnnoncePage/HouseContext';
 
 
 
@@ -17,6 +18,13 @@ const root = createRoot(rootElement);
 
 
 root.render(
-    <App />
-  
+    <HouseContextProvider>
+     
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    
+    </HouseContextProvider>
+    
+
 );

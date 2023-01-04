@@ -4,7 +4,7 @@ import '../CSS/SecondSection1.css'
 import './test'
 const SecondSection = () => {
   return (
-    <section className="sectionchoose">
+    <section className="sectionchoose" id="home">
       <div className="textChoose">
         <h1>Why you Choose Us ? </h1>
         <p className="whyuchoose">

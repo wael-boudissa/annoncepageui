@@ -13,6 +13,7 @@
     justify-content: space-between;
 
 }
+
 header img {
     width: 75px;
     height: 75px;
@@ -31,6 +32,10 @@ header ul li  {
     cursor: pointer;
     text-decoration: none;
     list-style: none;
+}
+header ul li a {
+    text-decoration: none;
+    color:black
 }
 header ul li::after {
     content: '';
@@ -94,7 +99,7 @@ header ul button:hover {
 }
 .img_background img {
     z-index: 1; 
-    width : 980px ; 
+    width : 100%²&eww ; 
     position: relative;
     /* left: 65px; */
     height : 500px ;   

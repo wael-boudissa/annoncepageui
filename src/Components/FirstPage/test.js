@@ -22,7 +22,7 @@ window.addEventListener('scroll', ()=>{
     let whychoose = document.querySelector('.whyuchoose ');
 
 
-    let imgpos =imgskills.getBoundingClientRect().top; 
+    let  imgpos =imgskills.getBoundingClientRect().top; 
     let contentPosition =content.getBoundingClientRect().top ; 
     let windowPosition =window.innerHeight;
     let whychoosepos = whychoose.getBoundingClientRect().top ; 

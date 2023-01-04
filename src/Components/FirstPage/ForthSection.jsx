@@ -7,7 +7,7 @@ import './test'
 import '../CSS/ForthSection.css'
 const ForthSection = () => {
   return (
-    <section className="Forthsection">
+    <section className="Forthsection" id="aboutus">
       <script src="test.js"></script>
       <h1>About Us</h1>
       <p>
@@ -28,7 +28,7 @@ const ForthSection = () => {
         <img src={img1} />
       </div>
 
-      <footer>
+      <footer id="contactus">
         <div className="logo_info">
           {' '}
           <h3>Meftahek</h3>
