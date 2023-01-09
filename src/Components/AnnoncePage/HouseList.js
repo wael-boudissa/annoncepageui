@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import { HouseContext } from './HouseContext';
 // import components
 import House from './House';
-import Header from '../AnnonceDD/Header';
+import Header from '../AnnonceDD/annonceDD';
 // import link
 import { Link } from 'react-router-dom';
 // import icons

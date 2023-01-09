@@ -17,11 +17,11 @@ const House = ({ house }) => {
     price,
   } = house
 }
-const Header = ({ house }) => {
+const Header = () => {
   return (
     <section>
-      <SecondHeader />
-      <div className="userText">
+      {/* <SecondHeader /> */}
+      {/* <div className="userText">
         <h1>
           Hey Name , Here you can Find All your annonce that u already posted it
         </h1>
@@ -69,7 +69,7 @@ const Header = ({ house }) => {
           </div>
         </div>
         ;
-      </Link>
+      </Link> */}
     </section>
   )
 }
