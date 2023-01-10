@@ -3,13 +3,14 @@ import { BsFileX } from 'react-icons/bs'
 import AnnonoceHeader from '../Annoncepage1/AnnonoceHeader'
 import '../CSS/AnnoncePage1.css'
 
+import PrincipalFooter from '../FirstPage/PrincipalFooter'
 import CardAnnonce from '../SecondPage/CardAnnonce'
 const AnnonceDD = () => {
   const Name = 'Name'
   const sectionstyle = {
     display: 'flex',
     alignItems: 'center',
-    margin: '30px',
+
     flexDirection: 'column',
   }
   return (
@@ -26,6 +27,7 @@ const AnnonceDD = () => {
         <CardAnnonce />
         <CardAnnonce />
       </div>
+      <PrincipalFooter />
     </seciton>
   )
 }
