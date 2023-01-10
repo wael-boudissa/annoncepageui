@@ -23,8 +23,7 @@ import Singup from "./Components/Singup";
 
 
 
-import Header from "./Components/AnnonceDD/annonceDD";
-
+ import AnnonceDD from "./Components/AnnonceDD/AnnonceDD";
 
 
 
@@ -51,13 +50,9 @@ function App() {
           <Route exact path="/contactuser" element={  <div><SecondHeader /><FirstSection2 />     <SecondSection2 />  <FindMoreSection /></div> }/>
           <Route exact path="/annonce" element = {<div><AnnonoceHeader/><AnnoncePSection1/><AnnoncesScreen/> <PrincipalFooter/></div>}/>
                 
-                <Route exact path="" element ={<div>
-                  <FirstSection />
-                  <SecondSection />
-          <ThirdSection />
-          <ForthSection />
-           </div>}/>
-          {/* <Route exact path ="/userannonce" element = {<><Header/></>}/> */}
+                <Route exact path="" element ={<div><FirstSection /><SecondSection /><ThirdSection /><ForthSection /></div>}/>
+                
+           <Route exact path ="/userannonce" element = {<><AnnonceDD/></>}/>
       
 
        {/* <Route path="/aboutus" element={<ForthSection /> } /> */}
