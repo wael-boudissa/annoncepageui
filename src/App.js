@@ -31,6 +31,11 @@ import PrincipalFooter from './Components/FirstPage/PrincipalFooter'
 import AnnonoceHeader from "./Components/Annoncepage1/AnnonoceHeader";
 import AnnoncePSection1 from "./Components/Annoncepage1/AnnoncePSection1";
 import AnnoncesScreen from "./Components/Annoncepage1/AnnoncesScreen";
+
+
+
+
+import AddAnnonce from "./Components/AddAnnonce/AddAnnonce";
 function App() {
   return (
     <div>
@@ -54,7 +59,7 @@ function App() {
                 
            <Route exact path ="/userannonce" element = {<><AnnonceDD/></>}/>
       
-
+          <Route exact path="/addannonce" element = {<AddAnnonce/>}/>
        {/* <Route path="/aboutus" element={<ForthSection /> } /> */}
         </Routes>
       </BrowserRouter>
