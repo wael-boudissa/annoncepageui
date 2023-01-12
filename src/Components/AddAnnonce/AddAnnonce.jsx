@@ -1,11 +1,12 @@
 import React from 'react'
-import './AddAnnonce.css'
+import '../CSS/AddAnnonce.css'
 import AnnonoceHeader from '../Annoncepage1/AnnonoceHeader'
+import PrincipalFooter from '../FirstPage/PrincipalFooter'
 const AddAnnonce = () => {
   return (
     <section className="AddAnnonce">
       <AnnonoceHeader />
-      <div>
+      <div className="AddAnnoncediv">
         <div className="Text">
           <h1>Here You Can publish a new annonce</h1>
           <hr />
@@ -54,6 +55,7 @@ const AddAnnonce = () => {
       <div className="buttonPublish">
         <button>Publsih</button>
       </div>
+      <PrincipalFooter />
     </section>
   )
 }

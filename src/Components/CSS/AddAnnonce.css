@@ -2,7 +2,10 @@
 .AddAnnonce {
     display: flex;
     flex-direction: column;
-    width: 100%;
+   
+}
+.AddAnnoncediv {
+    margin: 80px;
 }
 .Text
 {
@@ -94,6 +97,7 @@ margin: 40px;
     align-self: flex-end;
     margin-right: 20px;
     transition: 0.3s ease;
+    margin-bottom: 60px;
 }
 
 .buttonPublish:hover{

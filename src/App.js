@@ -36,6 +36,8 @@ import AnnoncesScreen from "./Components/Annoncepage1/AnnoncesScreen";
 
 
 import AddAnnonce from "./Components/AddAnnonce/AddAnnonce";
+
+import ProfileAccount from "./Components/ProfileAccount/ProfileAccount";
 function App() {
   return (
     <div>
@@ -58,7 +60,7 @@ function App() {
                 <Route exact path="" element ={<div><FirstSection /><SecondSection /><ThirdSection /><ForthSection /></div>}/>
                 
            <Route exact path ="/userannonce" element = {<><AnnonceDD/></>}/>
-      
+        <Route exact path="/profile" element={<ProfileAccount/>}/>
           <Route exact path="/addannonce" element = {<AddAnnonce/>}/>
        {/* <Route path="/aboutus" element={<ForthSection /> } /> */}
         </Routes>
